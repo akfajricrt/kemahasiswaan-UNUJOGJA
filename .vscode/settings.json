@@ -1,0 +1,4 @@
+{
+    "scss.lint.fontFaceProperties": "ignore",
+    "editor.tabSize": 2
+}

@@ -1,0 +1,510 @@
+body {
+    /* background-color: #f5f5f5; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 700;
+}
+
+.nav-item.active a {
+    color: #f9b234 !important;
+    /* color: #2AC281 !important; */
+    font-weight: 600;
+}
+
+.nav-item .nav-link:hover {
+    color: #f9b234 !important;
+
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #9b9b9b;
+    font-weight: 500;
+}
+
+.blog {
+    background-color: #e67817;
+
+    border-radius: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* carousel */
+
+.header-dataSlide h1 {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.header-dataSlide .btn {
+    font-size: 12px;
+    border: none;
+    color: white;
+    background-color: #e67817;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.data-slider .carousel-caption h1 {
+    font-size: 22px;
+    margin-top: -340px;
+}
+
+.header-dataSlide p,
+.data-slider .carousel-caption p {
+    font-size: 12px;
+}
+
+.header-dataSlide hr,
+.data-slider hr {
+    background-color: #e67817;
+    width: 80px;
+    border-width: 2px;
+}
+
+.data-slider .btn {
+    font-size: 14px;
+    border: none;
+    color: white;
+    background-color: #e67817;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.carousel-overlay {
+    background-color: #000;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about .card-text {
+    text-align: justify;
+}
+
+.about .card-bagian-text {
+    color: #5e5e5e;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+/* counter */
+
+.paralax-mf {
+    position: relative;
+    padding: 6rem 0;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay-mf {
+    background-color: #8bda66;
+}
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8 !important;
+}
+
+.quote {
+    margin-top: 100px;
+}
+
+.quote .warek {
+    font-size: 20px;
+}
+
+.quote .figure p {
+    font-size: 14px;
+    font-family: "Montserrat Medium";
+    color: #ffffff;
+}
+.simbol-quote {
+    position: absolute;
+    left: 0px;
+    opacity: 0.4;
+}
+
+/* tetinggi kampus */
+
+.ormawa {
+    margin-top: 100px;
+}
+
+.breadcrumb-ormawa {
+    margin-top: -18px;
+}
+
+.ormawa h3 {
+    color: #616161;
+    font-size: 16px;
+}
+
+.figure .keterangan {
+    display: none;
+}
+
+.figure h5 {
+    font-size: 14px;
+    font-family: "Montserrat ExtraBold";
+    color: #000;
+}
+
+.figure p {
+    font-size: 14px;
+    font-family: "Montserrat Medium";
+    color: #6e6e6e;
+}
+
+/* area footer */
+
+.contact {
+    background-color: #27503a;
+}
+
+.text-info-contact p {
+    font-size: 12px;
+    line-height: 40px;
+    color: #e7e7e7 !important;
+}
+
+.contact h3 {
+    color: #eeeeee;
+    font-size: 40px;
+    font-family: "Segoe UI Regular";
+}
+
+.contact .form-group .form-control {
+    background-color: rgba(0, 24, 0, 0.1);
+    border: 1px solid grey;
+    padding: 1.5em;
+}
+
+.ukuran-font {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #23372c;
+    color: white;
+    font-size: 12px;
+}
+
+/* categori */
+.text-blog p {
+    font-size: 14px;
+    color: #5f5f5f;
+    line-height: 25px;
+}
+
+.text-blog a h5 {
+    text-decoration: none;
+    font-size: 16px;
+}
+.categori-2 {
+    margin-top: 115px;
+}
+
+.text-title-category {
+    font-size: 14px;
+}
+
+.text-header-category h3 {
+    font-size: 14px;
+}
+
+.text-header-category p {
+    font-size: 12px;
+    color: #949494;
+}
+
+/* layanan */
+.jumbotron {
+    height: 300px;
+}
+
+.breadcrumb-item-bold {
+    font-weight: 600;
+}
+
+.layanan,
+.agenda {
+    margin-bottom: 150px !important;
+    margin-top: -150px;
+}
+
+.layanan .header-layanan p,
+.prestasi-header p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #7c7c7c;
+}
+
+.layanan label,
+.text-select label {
+    font-size: 14px;
+}
+
+.layanan h4 {
+    font-size: 18px;
+}
+
+.layanan .card-layanan,
+.agenda .card-agenda {
+    box-shadow: 5px 8px 10px rgba(0, 24, 0, 0.1);
+}
+
+.form-control {
+    padding: 25px;
+    background-color: #f7f7f7 !important;
+    border: 0;
+    font-size: 12px;
+}
+
+.custom-select {
+    background-color: #f7f7f7;
+    border: 0;
+}
+
+.select-prodi {
+    padding: 20px !important;
+}
+
+/*  akhir layanan*/
+
+/* agenda */
+
+.agenda .text-agenda h4 {
+    font-size: 18px;
+}
+
+.agenda .text-agenda p {
+    font-size: 12px;
+}
+.agenda .fitur-agenda h5 {
+    font-size: 15px;
+}
+
+.agenda .fitur-agenda p {
+    font-size: 12px;
+    color: #5f5f5f;
+}
+/* akhir agenda */
+
+/* animasi */
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.2);
+}
+
+.data-slider2 {
+    display: block;
+    margin-top: 70px;
+    max-height: 130px;
+}
+
+.header-dataSlide {
+    display: block;
+}
+
+/* media query */
+
+@media (min-width: 992px) {
+    /* agenda */
+    .header-dataSlide {
+        display: none;
+    }
+    .data-slider {
+        display: block;
+        height: 500px;
+        margin-top: 10px;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .data-slider2 {
+        display: none;
+    }
+
+    .agenda .text-agenda h4 {
+        font-size: 20px;
+    }
+
+    .agenda .text-agenda p {
+        font-size: 16px;
+    }
+    .agenda .fitur-agenda h5 {
+        font-size: 18px;
+    }
+
+    .agenda .fitur-agenda p {
+        font-size: 14px;
+    }
+    /* akhir agenda */
+
+    footer {
+        color: white;
+        font-size: 14px;
+    }
+
+    .text-info-contact p {
+        font-size: 15px;
+        line-height: 40px;
+        color: #e0dd00;
+    }
+
+    .about .card-bagian-text {
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    .text-header-category h3 {
+        font-size: 23px;
+    }
+
+    .text-header-category p {
+        font-size: 16px;
+    }
+
+    .ormawa {
+        margin-top: 130px;
+    }
+
+    .about .card-text {
+        text-align: start;
+    }
+
+    .data-slider hr {
+        background-color: #e67817;
+        width: 80px;
+        border-width: 2px;
+    }
+
+    .data-slider .btn {
+        border: none;
+        color: white;
+        background-color: #e67817;
+        margin-top: 40px;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .data-slider {
+        height: 670px;
+    }
+
+    .data-slider .carousel-caption h1 {
+        font-size: 3em;
+        margin-top: -480px;
+    }
+
+    .data-slider .carousel-caption p {
+        font-size: 25px;
+    }
+
+    .ormawa h3 {
+        color: #616161;
+        font-size: 30px;
+    }
+
+    .quote .warek {
+        font-size: 30px;
+    }
+
+    .simbol-quote {
+        position: absolute;
+        left: 250px;
+        top: -1px;
+        margin-top: 80px;
+    }
+
+    .quote .figure h5 {
+        font-size: 16px;
+        font-family: "Montserrat Medium";
+    }
+
+    .figure .keterangan {
+        display: block;
+    }
+
+    /* layanan */
+
+    .layanan .header-layanan p,
+    .prestasi-header p {
+        font-size: 14px;
+        margin-top: 20px;
+        color: #7c7c7c;
+    }
+
+    .layanan label {
+        font-size: 16px;
+    }
+
+    .layanan h4 {
+        font-size: 20px;
+    }
+
+    .layanan .card-layanan,
+    .agenda .card-agenda {
+        box-shadow: 5px 8px 10px rgba(0, 24, 0, 0.1);
+    }
+
+    .form-control {
+        padding: 25px;
+        background-color: #f7f7f7 !important;
+        border: 0;
+        font-size: 14px;
+    }
+
+    /*  akhir layanan*/
+
+    .text-blog a h5 {
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
