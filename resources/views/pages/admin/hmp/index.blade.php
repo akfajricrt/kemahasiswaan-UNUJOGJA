@@ -6,10 +6,10 @@
 
         <!-- Page Heading -->
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Daftar hmp</h1>
+            <h1 class="h3 mb-0 text-gray-800">Daftar HMP</h1>
 						<a href="{{ route('hmp.create')}}" class="btn btn-primary shadow-sm">
 							<i class="fas fa-plus fa-sm text-white-50"></i>
-							Tambah hmp
+							Tambah HMP
 					</a>
 
             
@@ -22,8 +22,8 @@
                         <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>Nama hmp</th>
-                                <th>Link Website hmp</th>
+                                <th>Nama HMP</th>
+                                <th>Link Website HMP</th>
                                 
                                 
                                 <th>Action</th>
