@@ -10,10 +10,11 @@ use App\Http\Controllers\OrmawaController;
 use App\Http\Controllers\PrestasiController;
 use App\Http\Controllers\KetentuanController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\HmpController;
 use App\Http\Controllers\Admin\PrestationController;
 use App\Http\Controllers\Admin\ServicesController;
-
-
+use App\Http\Controllers\Admin\OrganizationController;
+use App\Http\Controllers\Admin\UkmController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,6 +56,9 @@ Route::prefix('admin')
 
         Route::resource('prestation', PrestationController::class);
         Route::resource('complaint', ServicesController::class);
+        Route::resource('organization', OrganizationController::class);
+        Route::resource('ukm', UkmController::class);
+        Route::resource('hmp', HmpController::class);
     });
 
 Auth::routes([

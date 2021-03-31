@@ -22,18 +22,11 @@
             <h5 class="pl-3">Unit Kegiatan Mahasiswa</h5>
 
             <div class="list-group list-group-flush">
-              <a href="#" class="list-group-item list-group-item-action">UKM Penelitian UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM JQH IAC UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Koperasi Mahasiswa Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Seni Musik UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM LPM UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Korp Sukarela PMI UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Tenis Meja UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM KOMPESAT UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Fatayat UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Kitab Kuning UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Pramuka UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">UKM Badminton UNU Yogyakarta</a>
+              @foreach ($items as $item)
+              <a href="{{ $item->url_ukm }}" class="list-group-item list-group-item-action" target="_blank">
+                {{$item->organization->nama_ormawa}}
+              </a>
+              @endforeach
               <a href="#" class="list-group-item list-group-item-action"></a>
             </div>
           </div>
@@ -43,14 +36,13 @@
           <div>
             <h5 class="pl-3">Himpunan Mahasiswa Prodi</h5>
             <div class="list-group list-group-flush">
-              <a href="#" class="list-group-item list-group-item-action">HMP Agribisnis UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">HMP Akutansi UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">HMP Studi Islam Interdisipliner UNU
-                Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">HMP Teknologi Hasil Pertanian UNU
-                Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">HMP Teknik Elektro UNU Yogyakarta</a>
-              <a href="#" class="list-group-item list-group-item-action">HMP Informatika UNU Yogyakarta</a>
+              <div class="list-group list-group-flush">
+                @foreach ($organizations as $organization)
+                <a href="{{ $organization->url_hmp }}" class="list-group-item list-group-item-action" target="_blank">
+                  {{$organization->organization->nama_ormawa}}</a>
+                @endforeach
+                <a href="#" class="list-group-item list-group-item-action"></a>
+              </div>
               <a href="#" class="list-group-item list-group-item-action"></a>
 
 

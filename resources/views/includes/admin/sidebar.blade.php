@@ -33,7 +33,7 @@
     </li>
    
     <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('organization.index')}}">
             <i class="fas fa-fw fas fa-users"></i>
             <span>Ormawa</span></a>
     </li>
@@ -60,8 +60,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Ormawa:</h6>
-                <a class="collapse-item" href="buttons.html">UKM</a>
-                <a class="collapse-item" href="cards.html">HMP</a>
+                <a class="collapse-item" href="{{ route('ukm.index')}}">UKM</a>
+                <a class="collapse-item" href="{{ route('hmp.index')}}">HMP</a>
             </div>
         </div>
     </li>
