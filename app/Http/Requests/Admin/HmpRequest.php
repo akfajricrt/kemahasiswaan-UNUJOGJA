@@ -24,7 +24,7 @@ class HmpRequest extends FormRequest
 	public function rules()
 	{
 		return [
-			'organization_id' => 'required|integer|exists:organizations,id',
+			'hmp_id' => 'required|integer|exists:organizations,id',
 			'url_hmp' => 'required|max:255'
 		];
 	}

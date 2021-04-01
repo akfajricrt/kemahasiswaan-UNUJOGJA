@@ -9,7 +9,7 @@ class Hmps extends Model
 {
 
 	protected $fillable = [
-		'organization_id', 'url_hmp'
+		'hmp_id', 'url_hmp'
 	];
 
 	
@@ -19,8 +19,8 @@ class Hmps extends Model
 	];
 
 
-	public function organization(){
+	public function forHmp(){
 
-		return $this->belongsTo(Organizations::class,'organization_id','id');
+		return $this->belongsTo(Organizations::class,'hmp_id','id');
 	}
 }

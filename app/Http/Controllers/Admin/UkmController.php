@@ -17,7 +17,7 @@ class UkmController extends Controller
      */
     public function index()
     {
-        $items = Ukms::with(['organization'])->get();
+        $items = Ukms::with(['forUkm'])->get();
         return view('pages.admin.ukm.index', [
             'items' => $items
         ]);

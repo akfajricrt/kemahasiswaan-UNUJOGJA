@@ -28,13 +28,11 @@
                                 <h4>DATA PRESTASI MAHASISWA</h4>
                             <p>Berikut data mahasiswa berprestasi UNU Yogyakarta</p>
                             </div>
-                            {{--  @if (Auth::user() && Auth::user()->roles == 'USER')
+                            @if (Auth::user() && Auth::user()->roles == 'USER')
                                 <div class="col-md-6 text-md-right">
                                     <a href="{{route('prestasi.create')}}" class="btn btn-sm btn-info">Inputkan Prestasimu</a>
                                 </div> 
                             @endif
-                              --}}
-                            
                         </div>
                         
                         <div class="mt-3 table-responsive">

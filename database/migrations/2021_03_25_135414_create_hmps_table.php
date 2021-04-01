@@ -15,7 +15,7 @@ class CreateHmpsTable extends Migration
     {
         Schema::create('hmps', function (Blueprint $table) {
             $table->id();
-            $table->integer('organization_id');
+            $table->integer('hmp_id');
             $table->string('url_hmp');
             $table->timestamps();
         });

@@ -24,7 +24,7 @@ class UkmRequest extends FormRequest
 	public function rules()
 	{
 		return [
-			'organization_id' => 'required|integer|exists:organizations,id',
+			'ukm_id' => 'required|integer|exists:organizations,id',
 			'url_ukm' => 'required|max:255'
 		];
 	}

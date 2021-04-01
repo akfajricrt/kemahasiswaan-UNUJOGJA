@@ -8,7 +8,7 @@ class Ukms extends Model
 {
 
 	protected $fillable = [
-		'organization_id', 'url_ukm'
+		'ukm_id', 'url_ukm'
 	];
 
 	
@@ -19,11 +19,9 @@ class Ukms extends Model
 
 
 
-	public function organization(){
+	public function forUkm(){
 
-		return $this->belongsTo(Organizations::class,'organization_id', 'id');
+		return $this->belongsTo(Organizations::class,'ukm_id', 'id');
 	}
-
-	
 
 }

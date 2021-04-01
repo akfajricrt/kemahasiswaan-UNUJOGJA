@@ -17,7 +17,7 @@ class HmpController extends Controller
      */
     public function index()
     {
-        $items = Hmps::with(['organization'])->get();
+        $items = Hmps::with(['forHmp'])->get();
         return view('pages.admin.hmp.index', [
             'items' => $items
         ]);

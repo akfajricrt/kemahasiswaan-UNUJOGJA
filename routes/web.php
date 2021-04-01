@@ -41,7 +41,12 @@ Route::get('/category/blog', [BloggerController::class, 'index'])->name('blog');
 Route::get('/agenda', [AgendaController::class, 'index'])->name('agenda');
 Route::get('/ormawa', [OrmawaController::class, 'index'])->name('ormawa');
 Route::get('/prestasi', [PrestasiController::class, 'index'])->name('prestasi');
-Route::get('/prestasi/create', [PrestasiController::class, 'create'])->name('prestasi.create');
+
+Route::middleware(['auth','verified'])->group(function () {
+    Route::get('/prestasi/create', [PrestasiController::class, 'create'])->name('prestasi.create');
+    
+});
+
 Route::post('/success', [PrestasiController::class, 'store']);
 Route::post('/tembus', [LayananController::class, 'store']);
 

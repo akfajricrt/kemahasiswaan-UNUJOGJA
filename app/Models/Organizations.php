@@ -19,15 +19,10 @@ class Organizations extends Model
 	];
 
 
-	public function ukms(){
+	public function ormawa(){
 
-		return $this->hasMany(Ukms::class,'organization_id','id');
-
-	}
-
-	public function hmps(){
-
-		return $this->hasMany(Hmps::class,'organization_id','id');
+		return $this->hasManyThrough(Ukms::class,Hmps::class,'ukm_id','hmp_id','id','id');
 
 	}
+
 }

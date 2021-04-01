@@ -24,7 +24,7 @@
             <div class="list-group list-group-flush">
               @foreach ($items as $item)
               <a href="{{ $item->url_ukm }}" class="list-group-item list-group-item-action" target="_blank">
-                {{$item->organization->nama_ormawa}}
+                {{$item->forUkm->nama_ormawa}}
               </a>
               @endforeach
               <a href="#" class="list-group-item list-group-item-action"></a>
@@ -39,7 +39,7 @@
               <div class="list-group list-group-flush">
                 @foreach ($organizations as $organization)
                 <a href="{{ $organization->url_hmp }}" class="list-group-item list-group-item-action" target="_blank">
-                  {{$organization->organization->nama_ormawa}}</a>
+                  {{$organization->forHmp->nama_ormawa}}</a>
                 @endforeach
                 <a href="#" class="list-group-item list-group-item-action"></a>
               </div>

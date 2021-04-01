@@ -15,7 +15,7 @@ class CreateUkmsTable extends Migration
     {
         Schema::create('ukms', function (Blueprint $table) {
             $table->id();
-            $table->integer('organization_id');
+            $table->integer('ukm_id');
             $table->string('url_ukm');
             $table->timestamps();
         });

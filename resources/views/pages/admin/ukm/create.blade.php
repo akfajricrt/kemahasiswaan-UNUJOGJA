@@ -25,8 +25,8 @@
 						<form action="{{ route('ukm.store')}}" method="post">
 							@csrf
 							<div class="form-group">
-								<label for="organization_id">URL Website UKM</label>
-								<select name="organization_id" required class="form-control">
+								<label for="ukm_id">URL Website UKM</label>
+								<select name="ukm_id" required class="form-control">
 									<option value="">Pilih UKM</option>
 									@foreach ($organizations as $organization)
 										<option value="{{ $organization->id}}">

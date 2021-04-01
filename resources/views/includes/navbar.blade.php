@@ -45,7 +45,7 @@
             </form>
         @endguest  --}}
 
-            {{--  <!-- Tombol keluar-->
+            <!-- Tombol keluar-->
           @auth
             
             <!-- Mobile button -->
@@ -62,9 +62,8 @@
                 Keluar
               </button>
             </form>
-          @endauth  --}}
-        
-
+          @endauth
+      
           
       </div>
     </div>

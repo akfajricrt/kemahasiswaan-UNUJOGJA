@@ -63,14 +63,12 @@
                                     </a>
                                 @endif
                         </div>
-                        
-                        
-                        
+                         
                     </form>
-                    {{--  <div>
-                        <span>Anda belum daftar<a href="{{url('register')}}">Daftar</a></span>
+                    <div class="text-right">
+                        <span>Anda belum daftar<a href="{{url('register')}}"> Daftar</a></span>
                         
-                    </div>  --}}
+                    </div>
                     
                 </div>
                 

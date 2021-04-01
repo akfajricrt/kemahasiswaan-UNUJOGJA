@@ -33,7 +33,7 @@
                             @forelse ($items as $item)
                             <tr>
                                 <td>{{ $item->id }}</td>
-                                <td>{{ $item->organization->nama_ormawa}}</td>
+                                <td>{{ $item->forUkm->nama_ormawa}}</td>
                                 <td>{{ $item->url_ukm }}</td>
                                 
                                 

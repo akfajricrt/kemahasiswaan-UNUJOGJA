@@ -25,9 +25,9 @@
 							@method('PUT')
 							@csrf
 							<div class="form-group">
-								<label for="organization_id">URL Website HMP</label>
-								<select name="organization_id" required class="form-control">
-									<option value="{{ $item->organization_id }}">Jangan di Ubah</option>
+								<label for="hmp_id">URL Website HMP</label>
+								<select name="hmp_id" required class="form-control">
+									<option value="{{ $item->hmp_id }}">Jangan di Ubah</option>
 
 									@foreach ($organizations as $organization)
 										<option value="{{ $organization->id}}">
@@ -39,7 +39,7 @@
 							</div>
 							<div class="form-group">
 								<label for="url_hmp">URL Website HMP</label>
-								<input type="text" class="form-control" name="url_hmp" placeholder="URL Website HMP" value="{{ old('url_hmp')}}">
+								<input type="text" class="form-control" name="url_hmp" placeholder="URL Website HMP" value="{{ $item->url_hmp}}">
 							</div>
 						
 							<button type="submit" class="btn btn-primary btn-block">Simpan</button>
