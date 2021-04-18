@@ -167,17 +167,43 @@
         
         
           <!-- Ormawa -->
-          <section class="ormawa" data-aos="fade-up" data-aos-duration="500">
-            <div class="container text-center">
-              <div class="row text-center">
-                <div class="col">
-                  <h3 class=" pb-sm-3">Organisasi Mahasiswa Universitas <br>Nahdlatul Ulama Yogyakarta</h3>
+          <section class="ormawa">
+            <div class="container ">
+              <div class="row " >
+                <div class="col-lg-3 col-md-2">
+                  <h5 class=" ">Organisasi Mahasiswa Universitas Nahdlatul Ulama Yogyakarta</h5>
                 </div>
+                <div class="col-lg-9 col-md-4 col-sm-2 img-slide lazy">
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/1.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/2.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/3.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/4.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/5.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/6.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/7.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  <div class="items-img">
+                    <img src="{{ url('frontend/img/organisasi/1.jpg')}}" alt="" class="img-fluid">
+                  </div>
+                  
+                </div>
+                
               </div>
-        
-              <img src="{{ url('frontend/img/organisasi/1.png')}}" alt="" class="img-fluid">
+              
             </div>
-        
           </section>
           <!-- akhir Ormawa -->
         
@@ -291,3 +317,37 @@
     </main>
     
 @endsection
+
+
+@push('script-home')
+<script >
+  $('.lazy').slick({
+    lazyLoad: 'ondemand',
+    arrows: false,
+    dots: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay:true,
+    autoplaySpeed:1500,
+    responsive: [
+       
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+  });
+</script>
+    
+@endpush

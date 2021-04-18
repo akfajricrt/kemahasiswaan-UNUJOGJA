@@ -46,7 +46,7 @@
 							</div>
 							<div class="form-group">
 								<label for="institusi_pembuat_acara">Penyelenggara Acara</label>
-								<input type="text" class="form-control" name="Penyelenggara Acara" placeholder="Institusi Pembuat Acara" value="{{ old('institusi_pembuat_acara')}}">
+								<input type="text" class="form-control" name=" institusi_pembuat_acara" placeholder="Institusi Pembuat Acara" value="{{ old('institusi_pembuat_acara')}}">
 							</div>
 							<div class="form-group">
 								<label for="peringkat_perlombaan">Peringkat Kejuaraan</label>

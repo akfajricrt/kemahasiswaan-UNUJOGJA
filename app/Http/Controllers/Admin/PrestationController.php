@@ -23,6 +23,8 @@ class PrestationController extends Controller
         return view('pages.admin.prestation.index', [
             'items' => $items
         ]);
+
+    
     }
 
     /**
@@ -111,6 +113,7 @@ class PrestationController extends Controller
 
 
         $item = Prestations::findOrFail($id);
+        
         $item->update($data);
 
         return redirect()->Route('prestation.index');

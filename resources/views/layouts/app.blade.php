@@ -27,7 +27,7 @@
   @include('includes.script')
 
   @stack('addon-script')
-
+  @stack('script-home')
 </body>
 
 </html>

@@ -136,7 +136,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.8 !important;
+    opacity: 0.6;
 }
 
 .quote {
@@ -161,16 +161,28 @@ body {
 /* tetinggi kampus */
 
 .ormawa {
-    margin-top: 100px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.ormawa .img-slide {
+    display: flex;
+    overflow: hidden;
+}
+.ormawa .items-img {
+    /* width: 50px;
+    height: 50px; */
+    margin-right: 20px;
 }
 
 .breadcrumb-ormawa {
     margin-top: -18px;
 }
 
-.ormawa h3 {
+.ormawa h5 {
     color: #616161;
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .figure .keterangan {
@@ -198,7 +210,7 @@ body {
 .text-info-contact p {
     font-size: 12px;
     line-height: 40px;
-    color: #e7e7e7 !important;
+    color: #e0dd00;
 }
 
 .contact h3 {
@@ -341,7 +353,7 @@ footer {
 .data-slider2 {
     display: block;
     margin-top: 70px;
-    max-height: 130px;
+    max-height: 150px;
 }
 
 .header-dataSlide {
@@ -409,7 +421,12 @@ footer {
     }
 
     .ormawa {
-        margin-top: 130px;
+        margin-top: 120px;
+        text-align: left;
+    }
+
+    .ormawa h5 {
+        font-size: 20px;
     }
 
     .about .card-text {
@@ -445,11 +462,6 @@ footer {
 
     .data-slider .carousel-caption p {
         font-size: 25px;
-    }
-
-    .ormawa h3 {
-        color: #616161;
-        font-size: 30px;
     }
 
     .quote .warek {
